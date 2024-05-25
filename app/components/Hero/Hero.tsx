@@ -28,9 +28,9 @@ const responsive = {
 const Hero = () => {
   return (
     <Carousel additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={true} >
-        <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 clip_path'>
+        <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 md:clip_path'>
             <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
-                <Image src={BurgerImg1} alt="burger" />
+                <Image src={BurgerImg1} alt="burger" className='hidden md:block'/>
                 <div>
                     <h1 className="text-[40px] font-semibold text-white">BURGER TOP 1 INDONESIA</h1>
                     <h1 className="text-[90px] leading-[5rem] uppercase text-red-500 font-bold">BEST <br /> Burgers</h1>
@@ -48,9 +48,9 @@ const Hero = () => {
         </div>
 
 
-        <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 clip_path'>
+        <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 md:clip_path'>
             <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
-                <Image src={BurgerImg2} alt="burger" />
+                <Image src={BurgerImg2} alt="burger" className='hidden md:block' />
                 <div>
                     <h1 className="text-[40px] font-semibold text-white">Tasty Burger</h1>
                     <h1 className="text-[90px] leading-[5rem] uppercase text-red-500 font-bold">TOP <br /> Burgers</h1>
