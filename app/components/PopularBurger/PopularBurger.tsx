@@ -29,7 +29,7 @@ const PopularBurger = () => {
   return (
     <div className="pt-[3rem] pb-[3rem]">
         <h1 className="heading">
-           Burger Pilihan<span className="text-red-600">Terbaik</span>
+           Burger Pilihan<span className="text-orange-600"> Terbaik</span>
         </h1>
         <div className="w-[80%] mt-[4rem] mx-auto">
             <Carousel additionalTransfrom={0} arrows={true} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}> 
