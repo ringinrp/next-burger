@@ -1,6 +1,5 @@
 import React from 'react';
 import TeamCard from './TeamCard';
-import Image from 'next/image';
 
 const Team = () => {
   return (

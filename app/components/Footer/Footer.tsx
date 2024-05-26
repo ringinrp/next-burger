@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div>
                 <h1 className="text-[23px] font-semibold mb-[2rem] text-white">Product</h1>
-                <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit">Chiken Burger</p>
+                <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit">Chicken Burger</p>
                 <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit">Beef Burger</p>
                 <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit">Cheese Burger</p>
                 <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit">Crispy Burger</p>
